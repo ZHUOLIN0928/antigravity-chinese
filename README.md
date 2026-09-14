@@ -1,13 +1,21 @@
-# 🌌 Antigravity IDE 最新版中文汉化可复制指令直接喂给antigravity使用（Antigravity Chinese Patch）
-
 <p align="center">
-  <img src="assets/icon.icns" alt="Antigravity Chinese Patch Icon" />
+  <img src="assets/logo.png" alt="Antigravity Chinese Patch" width="260" />
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Platform: macOS / Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-brightgreen.svg)]()
-[![Node.js: >=22](https://img.shields.io/badge/Node.js-%3E%3D22-orange.svg)](https://nodejs.org/)
-[![Target: Antigravity IDE](https://img.shields.io/badge/Target-Antigravity%20IDE-purple.svg)](https://antigravity.google/)
+<h1 align="center">🌌 Antigravity Chinese Patch</h1>
+
+<p align="center">
+  Google Antigravity IDE 最新版中文汉化 · 一键注入式汉化方案 · macOS &amp; Windows
+</p>
+
+<p align="center">
+  <a href="https://antigravity.google/"><img src="https://img.shields.io/badge/Target-Antigravity%20IDE-purple.svg" alt="Antigravity" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT" />
+  <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-brightgreen.svg" alt="Platform" />
+  <img src="https://img.shields.io/badge/Node.js-%3E%3D22-orange.svg" alt="Node" />
+</p>
+
+
 ---
 摘要：
 可以将以下内容发送给antigravity进行一键汉化，不需要繁琐的操作
