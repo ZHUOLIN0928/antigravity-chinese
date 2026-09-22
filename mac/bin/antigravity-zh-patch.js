@@ -1326,10 +1326,19 @@ const overlaySource = String.raw`
 function mainPid() {
   try {
     const output = execFileSync('/usr/bin/pgrep', ['-f', '/Antigravity\\.app/Contents/MacOS/Antigravity$'], { encoding: 'utf8' });
-    return output.trim().split(/\s+/)[0] || null;
-  } catch {
-    return null;
-  }
+    const pid = output.trim().split(/\s+/)[0];
+    if (pid) return pid;
+  } catch {}
+  try {
+    const out = execFileSync('ps', ['-eo', 'pid,command'], { encoding: 'utf8' });
+    for (const line of out.split('\n')) {
+      if (line.includes('/Antigravity.app/Contents/MacOS/Antigravity') && !line.includes('ps ') && !line.includes('node')) {
+        const match = line.trim().match(/^(\d+)/);
+        if (match) return match[1];
+      }
+    }
+  } catch {}
+  return null;
 }
 
 function debugPorts() {
