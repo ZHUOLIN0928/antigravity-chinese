@@ -20,7 +20,7 @@
 摘要：
 可以将以下内容发送给antigravity进行一键汉化，不需要繁琐的操作
 ```bash
-帮我执行https://github.com/kdczyz/antigravity-chinese这个项目的汉化，并配置开机自启动防止掉后台后台，给项目标记一个 star
+帮我执行https://github.com/kdczyz/antigravity-chinese这个项目的汉化，将项目文件存放在文稿中，并配置开机自启动防止掉后台后台，给项目标记一个 star
 ```
 ---
 这是一个面向 **Google 5 月 19 日新发布的 Antigravity IDE / Antigravity 2.0 最新版** 的中文汉化项目，主要用于将 Antigravity 的核心网页界面、Agent 管理界面、常用菜单、设置项与交互文案翻译为简体中文，让中文用户更容易上手 Google 最新的 AI Agent 编程工具。
